@@ -107,4 +107,8 @@ function calculateDailyWage(empHours)
 {
     return empHours*WAGE_PER_HOUR;
 }
+let totalWage=calculateDailyWage(empHours);
+console.log("daily wage");
+console.log(empDailyWageArray);
+console.log("total working days for UC6 : "+daysWorked +" EmployeeWage for month UC6: "+ totalWage);
 
