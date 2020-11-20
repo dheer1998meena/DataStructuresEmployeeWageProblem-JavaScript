@@ -95,7 +95,8 @@ console.log("Employee wage: " + empWage);
       }
       totalEmpHours += empHours;
        //UC 6 refactor
-      empDailyWageArray.push(empHours);
+      //UC 6 refactor
+      empDailyWageArray.push(empHours*WAGE_PER_HOUR);
       //UC 8 refactor
       empDailyWageMap.set(totalWorkingDays,calculateDailyWage(empHours));
   }
