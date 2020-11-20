@@ -94,7 +94,7 @@ console.log("Employee wage: " + empWage);
       }
       totalEmpHours += empHours;
        //UC 6 refactor
-      empDailyWageArray.push(empHours);
+       empDailyWageArray.push(empHours*WAGE_PER_HOUR);
   }
   let totalEmpWage = WAGE_PER_HOUR*totalEmpHours;
   console.log("Total working days  : "+totalWorkingDays+"\nTotal working hours : "+totalEmpHours+" \nTotal employee wage : " + totalEmpWage);
